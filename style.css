@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    background-image: url('./img/cycle.png');
+    background-position: center;
+    padding: 30px;
+    padding-top: 0;
+}
+
+header h1 {
+    font-size: 4em;
+}
+
+.mainBody a {
+    text-decoration: none ;
+    transition: font-size 0.25s ease;
+    color: black;
+}
+
+.mainBody a :focus, .mainBody a :focus {
+    outline: none;
+    background-color: transparent;
+}
+
+.mainBody a:hover {
+    font-size: 1.2em;
+    color: white;
+    background:
+    linear-gradient(
+      to right,
+      var(black) 0%,
+      var(black) 5px
+    );
+}
